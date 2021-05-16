@@ -14,9 +14,9 @@ let headerSlider = new Swiper('.header__slider-container', {
 
    speed: 1000,
 
-   // autoplay: {
-   //    delay: 6000,
-   // },
+   autoplay: {
+      delay: 6000,
+   },
 
    effect: 'fade',
 })
