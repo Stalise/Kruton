@@ -167,12 +167,12 @@ if (document.body.clientWidth >= 1200) {
 window.addEventListener('resize', () => {
 
    if (document.body.clientWidth >= 1200) {
-      document.querySelector('.main__portfolio').style.height = '1160px';
-      document.querySelector('.portfolio__content').style.height = '1000px';
-      document.querySelector('.portfolio__filter').style.height = '775px';
-      filter__blocks.style.height = '705px';
-      filter__blocks.dataset.view = 'close';
-      portfolio__button.innerHTML = 'Load More'
+//       document.querySelector('.main__portfolio').style.height = '1160px';
+//       document.querySelector('.portfolio__content').style.height = '1000px';
+//       document.querySelector('.portfolio__filter').style.height = '775px';
+//       filter__blocks.style.height = '705px';
+//       filter__blocks.dataset.view = 'close';
+//       portfolio__button.innerHTML = 'Load More'
       portfolio__button.onclick = function () {
 
          if (filter__buttons.children[0].children[0].classList.contains('_active')) {
@@ -196,12 +196,12 @@ window.addEventListener('resize', () => {
       }
    } else if (document.body.clientWidth >= 767 && document.body.clientWidth < 1200) {
 
-      document.querySelector('.main__portfolio').style.height = '970px';
-      document.querySelector('.portfolio__content').style.height = '835px';
-      document.querySelector('.portfolio__filter').style.height = '610px';
-      filter__blocks.style.height = '540px';
-      filter__blocks.dataset.view = 'close';
-      portfolio__button.innerHTML = 'Load More'
+//       document.querySelector('.main__portfolio').style.height = '970px';
+//       document.querySelector('.portfolio__content').style.height = '835px';
+//       document.querySelector('.portfolio__filter').style.height = '610px';
+//       filter__blocks.style.height = '540px';
+//       filter__blocks.dataset.view = 'close';
+//       portfolio__button.innerHTML = 'Load More'
 
       portfolio__button.onclick = function () {
          if (filter__buttons.children[0].children[0].classList.contains('_active')) {
@@ -225,12 +225,12 @@ window.addEventListener('resize', () => {
       }
    } else if (document.body.clientWidth >= 487 && document.body.clientWidth < 767) {
 
-      document.querySelector('.main__portfolio').style.height = '920px';
-      document.querySelector('.portfolio__content').style.height = '800px';
-      document.querySelector('.portfolio__filter').style.height = '645px';
-      filter__blocks.style.height = '540px';
-      filter__blocks.dataset.view = 'close';
-      portfolio__button.innerHTML = 'Load More';
+//       document.querySelector('.main__portfolio').style.height = '920px';
+//       document.querySelector('.portfolio__content').style.height = '800px';
+//       document.querySelector('.portfolio__filter').style.height = '645px';
+//       filter__blocks.style.height = '540px';
+//       filter__blocks.dataset.view = 'close';
+//       portfolio__button.innerHTML = 'Load More';
 
       portfolio__button.onclick = function () {
          if (filter__buttons.children[0].children[0].classList.contains('_active')) {
@@ -253,12 +253,14 @@ window.addEventListener('resize', () => {
          }
       }
    } else if (document.body.clientWidth < 487) {
-      document.querySelector('.main__portfolio').style.height = '920px';
-      document.querySelector('.portfolio__content').style.height = '800px';
-      document.querySelector('.portfolio__filter').style.height = '645px';
-      filter__blocks.style.height = '540px';
-      filter__blocks.dataset.view = 'close';
-      portfolio__button.innerHTML = 'Load More';
+      
+//       document.querySelector('.main__portfolio').style.height = '920px';
+//       document.querySelector('.portfolio__content').style.height = '800px';
+//       document.querySelector('.portfolio__filter').style.height = '645px';
+//       filter__blocks.style.height = '540px';
+//       filter__blocks.dataset.view = 'close';
+//       portfolio__button.innerHTML = 'Load More';
+      
       portfolio__button.onclick = function () {
          if (filter__buttons.children[0].children[0].classList.contains('_active')) {
             if (filter__blocks.dataset.view == 'close') {
