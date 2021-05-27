@@ -90,9 +90,9 @@ document.querySelector('.header-popup__button-open').onclick = function () {
    document.querySelector('.header-popup').style.opacity = '1';
    setTimeout(() => document.querySelector('.header-popup').style.boxShadow = '0 0 200px 500px rgba(0, 0, 0,0.7) inset', 10);
    setTimeout(() => document.querySelector('.header-popup__wrapper').style.transform = 'scale(1, 1)', 400);
-//    document.body.style.overflow = 'hidden';
+   document.body.style.overflow = 'hidden';
 
-   //анимая закрытия popup при клике за его предлелами(на экран)
+   //анимация закрытия popup при клике за его предлелами(на экран)
    document.querySelector('.header-popup').onclick = function (event) {
       if (event.target.getAttribute('class') == 'header-popup') {
          document.querySelector('.header-popup__wrapper').style.transform = 'scale(0, 0)';
@@ -101,7 +101,7 @@ document.querySelector('.header-popup__button-open').onclick = function () {
             document.querySelector('.header-popup').style.opacity = '0';
          }, 500);
          setTimeout(() => document.querySelector('.header-popup').style.display = 'none', 800);
-//          document.body.style.overflow = 'visible';
+         document.body.style.overflow = 'visible';
       }
    }
 }
@@ -114,5 +114,5 @@ document.querySelector('.header-popup__button-close').onclick = function () {
       document.querySelector('.header-popup').style.opacity = '0';
    }, 500);
    setTimeout(() => document.querySelector('.header-popup').style.display = 'none', 800);
-//    document.body.style.overflow = 'visible';
+   document.body.style.overflow = 'visible';
 }
