@@ -3,7 +3,7 @@
 let headerSlider = new Swiper('.header__slider-container', {
 
    pagination: {
-      el: '.swiper-pagination',
+      el: '.header__swiper-pagination',
 
       clickable: true,
    },
